@@ -15,6 +15,7 @@ class Slytherin extends Hogwarts {
         this.resourcefulness = resourcefulness;
         this.desireForPower = desireForPower;
     }
+
     public void printDescription() {
         super.printDescription();
         System.out.println("Cunning: " + cunning);
@@ -23,6 +24,7 @@ class Slytherin extends Hogwarts {
         System.out.println("Resourcefulness: " + resourcefulness);
         System.out.println("Desire for Power: " + desireForPower);
     }
+
     public static void compare(Slytherin student1, Slytherin student2) {
         int score1 = student1.cunning + student1.determination + student1.ambition +
                 student1.resourcefulness + student1.desireForPower;

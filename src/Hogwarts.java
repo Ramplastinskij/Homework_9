@@ -14,7 +14,6 @@ class Hogwarts {
     public int getMagicPower() {
         return magicPower;
     }
-
     public void printDescription() {
         System.out.println("Студент: " + name);
         System.out.println("Сила магии: " + magicPower);

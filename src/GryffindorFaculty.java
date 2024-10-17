@@ -11,7 +11,7 @@ class Gryffindor extends Hogwarts {
     }
     public void printDescription() {
         super.printDescription();
-        System.out.println("Нобility: " + nobility);
+        System.out.println("Ноbility: " + nobility);
         System.out.println("Honor: " + honor);
         System.out.println("Bravery: " + bravery);
     }
